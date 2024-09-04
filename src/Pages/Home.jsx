@@ -72,11 +72,11 @@ export default class Home extends PureComponent {
         </div>
         </div>
         
-        <div class="bg-[#E4EFFF] py-12 rounded-xl mx-10 mt-10 bo">
+        <div class="bg-[#E4EFFF] py-12 rounded-xl mx-10 mt-10 border-2 border-b-[#6695db]">
   <div class="max-w-6xl mx-auto px-4">
-    <div class="text-center mb-8">
-      <h2 class="text-3xl font-bold text-gray-900">Our Services</h2>
-      <p class="text-gray-600 mt-2">We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
+    <div class="text-center ">
+      <h2 class="text-3xl font-bold text-gray-900 pt-5 my-4">Our Services</h2>
+      <p class="text-gray-600 mt-2 pt-2">We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 pt-20 ">
