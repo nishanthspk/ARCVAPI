@@ -3,6 +3,10 @@ import Globe from '../Assets/Group.png';
 import Arc from '../Assets/Arc.png';
 import Cpu from '../Assets/cpu.png';
 import User from '../Assets/user-octagon.png';
+import Box from '../Assets/_x34_.png'; 
+import X5 from '../Assets/_x35_.png'; 
+import X6 from '../Assets/_x36_.png'; 
+import X7 from '../Assets/_x37_.png'; 
 
 
 
@@ -68,14 +72,60 @@ export default class Home extends PureComponent {
         </div>
         </div>
         
-        <div>
+        <div className='pt-28'>
         <div>
         <p className='font-bold text-4xl text-center '>Our Services</p>
-        <p className='text-xs text-center'>We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
+        <p className='text-xs text-center py-4'>We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
         </div>
-        <div></div>
+        
+        <div className='flex justify-between mx-24 my-10'>
+        
+        <div className='flex gap-5'>
+        <div>
+        <img className='h-32 w-32' src={Box} alt="" />
         </div>
-
+        <div className='pt-4'>
+        <p className='text-xl'>Freight Transportation</p>
+        <p className='text-xs'>Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
+        </div>
+        </div>
+        
+        
+        <div className='flex gap-5'>
+        <div>
+        <img className='h-32 w-32' src={X6} alt="" />
+        </div>
+        <div className='pt-4'>
+        <p className='text-xl'>Warehousing Solutions</p>
+        <p className='text-xs'>Secure, advanced storage facilities with top-notch inventory management.</p>
+        </div>
+        </div>
+        
+        </div>
+       
+        
+        <div className='flex justify-between mx-24 my-10'>
+        <div className='flex gap-5'>
+        <div>
+        <img className='h-32 w-32' src={X7} alt="" />
+        </div>
+        <div className='pt-4'>
+        <p className='text-xl'>Supply Chain Management</p>
+        <p className='text-xs'>Enhance your operations with our comprehensive supply chain solutions.</p>
+        </div>
+        </div>
+        
+        <div className='flex gap-5'>
+        <div>
+        <img className='h-32 w-32' src={X5} alt="" />
+        </div>
+        <div className='pt-4'>
+        <p className='text-xl'>Customized Logistics Solutions</p>
+        <p className='text-xs'>We deliver tailored logistics services to address your specific needs, ensuring precision</p>
+        </div>
+        </div>
+        </div>
+        </div>
       </div>
     )
   }
