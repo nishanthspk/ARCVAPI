@@ -72,60 +72,53 @@ export default class Home extends PureComponent {
         </div>
         </div>
         
-        <div className='pt-28'>
+        <div class="bg-[#E4EFFF] py-12 rounded-xl mx-10 mt-10 bo">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-gray-900">Our Services</h2>
+      <p class="text-gray-600 mt-2">We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 pt-20 ">
+    
+      <div class="flex items-start mx-10 my-10">
+        <img src={Box} class="w-16 h-16 mr-4" alt="Freight Transportation Icon" />
         <div>
-        <p className='font-bold text-4xl text-center '>Our Services</p>
-        <p className='text-xs text-center py-4'>We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
+          <h3 class="text-xl font-semibold text-gray-900">Freight Transportation</h3>
+          <p class="text-gray-600 mt-2">Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
         </div>
-        
-        <div className='flex justify-between mx-24 my-10'>
-        
-        <div className='flex gap-5'>
+      </div>
+
+    
+      <div class="flex items-start mx-10 my-10">
+        <img src={X6} class="w-16 h-16 mr-4" alt="Warehousing Solutions Icon" />
         <div>
-        <img className='h-32 w-32' src={Box} alt="" />
+          <h3 class="text-xl font-semibold text-gray-900">Warehousing Solutions</h3>
+          <p class="text-gray-600 mt-2">Secure, advanced storage facilities with top-notch inventory management.</p>
         </div>
-        <div className='pt-4'>
-        <p className='text-xl'>Freight Transportation</p>
-        <p className='text-xs'>Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
-        </div>
-        </div>
-        
-        
-        <div className='flex gap-5'>
+      </div>
+
+    
+      <div class="flex items-start mx-10 my-10">
+        <img src={X7} class="w-16 h-16 mr-4" alt="Supply Chain Management Icon" />
         <div>
-        <img className='h-32 w-32' src={X6} alt="" />
+          <h3 class="text-xl font-semibold text-gray-900">Supply Chain Management</h3>
+          <p class="text-gray-600 mt-2">Enhance your operations with our comprehensive supply chain solutions.</p>
         </div>
-        <div className='pt-4'>
-        <p className='text-xl'>Warehousing Solutions</p>
-        <p className='text-xs'>Secure, advanced storage facilities with top-notch inventory management.</p>
-        </div>
-        </div>
-        
-        </div>
-       
-        
-        <div className='flex justify-between mx-24 my-10'>
-        <div className='flex gap-5'>
+      </div>
+
+    
+      <div class="flex items-start mx-10 my-10">
+        <img src={X5} class="w-16 h-16 mr-4" alt="Customized Logistics Solutions Icon" />
         <div>
-        <img className='h-32 w-32' src={X7} alt="" />
+          <h3 class="text-xl font-semibold text-gray-900">Customized Logistics Solutions</h3>
+          <p class="text-gray-600 mt-2">We deliver tailored logistics services to address your specific needs, ensuring precision.</p>
         </div>
-        <div className='pt-4'>
-        <p className='text-xl'>Supply Chain Management</p>
-        <p className='text-xs'>Enhance your operations with our comprehensive supply chain solutions.</p>
-        </div>
-        </div>
-        
-        <div className='flex gap-5'>
-        <div>
-        <img className='h-32 w-32' src={X5} alt="" />
-        </div>
-        <div className='pt-4'>
-        <p className='text-xl'>Customized Logistics Solutions</p>
-        <p className='text-xs'>We deliver tailored logistics services to address your specific needs, ensuring precision</p>
-        </div>
-        </div>
-        </div>
-        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     )
   }
