@@ -8,6 +8,7 @@ import X5 from '../Assets/_x35_.png';
 import X6 from '../Assets/_x36_.png';
 import X7 from '../Assets/_x37_.png';
 import Truck from '../Assets/Truck.png';
+import Dummy from '../Assets/Ellipse 1.png';
 
 
 export default class Home extends PureComponent {
@@ -144,6 +145,33 @@ export default class Home extends PureComponent {
         
         <div className='mx-20 pl-5 pt-2' >
         <img className='h-[450px] w-[600px]' src={Truck} alt="" />
+        </div>
+        </div>
+        </div>
+        
+        <div>
+        <div className='text-center'>
+        <p className='text-4xl'>Our Trusted Clients</p>
+        <p className='text-xs'>We are honored to have partnered with a diverse range of clients from various industries. Here are some of the logos and testimonials from those who trust us with their logistics needs.</p>
+        </div>
+        <div className='flex justify-between mx-5'>
+        <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
+        <img src={Dummy} alt="" />
+        <p>Martin Goutry</p>
+        <p>John Smith, CEO of Tech Innovations</p>
+        <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        </div>
+        <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
+        <img src={Dummy} alt="" />
+        <p>Martin Goutry</p>
+        <p>John Smith, CEO of Tech Innovations</p>
+        <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        </div>
+        <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
+        <img src={Dummy} alt="" />
+        <p>Martin Goutry</p>
+        <p>John Smith, CEO of Tech Innovations</p>
+        <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         </div>
         </div>
