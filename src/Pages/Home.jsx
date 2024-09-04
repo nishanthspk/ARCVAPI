@@ -10,6 +10,9 @@ import X7 from '../Assets/_x37_.png';
 import Truck from '../Assets/Truck.png';
 import Dummy from '../Assets/Ellipse 1.png';
 import Factory from '../Assets/Factory.png';
+import Map from '../Assets/Map.png';
+import Text from '../Assets/text.png';
+import Logo from '../Assets/Arc.png';
 
 
 export default class Home extends PureComponent {
@@ -177,8 +180,8 @@ export default class Home extends PureComponent {
         </div>
         </div>
         
-        <div className='bg-[#D7E8FF]'>
-        <div className='text-center pt-20 '>
+        <div className='bg-[#D7E8FF] rounded-lg mx-10 mt-20'>
+        <div className='text-center pt-5 '>
         <p className='text-4xl my-2'>Connect with Us</p>
         <p className='text-xs my-2'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get <br /> back to you promptly to address your inquiries and provide the support you need.</p>
         </div>
@@ -194,12 +197,49 @@ export default class Home extends PureComponent {
         <input className='bg-white w-96 p-1 rounded-lg' type="text" />
         <p className='my-2'>Message *</p>
         <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <div className='pt-10 '>
+        <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg'>Send Message →</button>
+        </div>
         </div>
         <div>
         <img className='h-[500px] w-[500px]' src={Factory} alt="" />
         </div>
         </div>
         </div>
+        
+        <div className='text-center pt-20'>
+        <p className='text-4xl'>Find Us on the Map</p>
+        <p className='text-xs my-4'>Use the interactive map below to find our office locations and get directions</p>
+        </div>
+        <div className='mx-10 pt-5'>
+        <img className='' src={Map} alt="" />
+        </div>
+        <div className='flex justify-between'>
+        
+        <div className=' mx-4 mt-10'>
+        <div className='flex gap-4 mx-10'>
+      <img className='h-8' src={Logo} alt="" />
+      <div className='pt-1 font-semibold'>ArcVapi.</div>
+      </div>
+      <p className='mx-10 pt-2'>Efficient Solutions for All Your Transportation Needs.</p>
+     
+      </div>
+      <div className='flex gap-10 mx-16 mt-10 '>
+      <div>
+      <p>Tools</p>
+      <p>About Us</p>
+      <p>Contact</p>
+      </div>
+      <div>
+      <p>Privacy Policies</p>
+      <p>Terms of service</p>
+      </div>
+      </div>
+      </div>
+      
+      <div className='mx-20 pt-16'>
+      <img src={Text} alt="" />
+      </div>
 
       </div>
     )
