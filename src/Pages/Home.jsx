@@ -67,6 +67,14 @@ export default class Home extends PureComponent {
         <p className='items-center my-2'>Stay connected with real-time tracking and seamless communication throughout your shipment's journey.</p>
         </div>
         </div>
+        
+        <div>
+        <div>
+        <p className='font-bold text-4xl text-center '>Our Services</p>
+        <p className='text-xs text-center'>We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
+        </div>
+        <div></div>
+        </div>
 
       </div>
     )
