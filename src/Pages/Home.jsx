@@ -1,5 +1,10 @@
 import React, { PureComponent } from 'react'
 import Globe from '../Assets/Group.png';
+import Arc from '../Assets/Arc.png';
+import Cpu from '../Assets/cpu.png';
+import User from '../Assets/user-octagon.png';
+
+
 
 export default class Home extends PureComponent {
   render() {
@@ -38,12 +43,29 @@ export default class Home extends PureComponent {
         </div>
         
         <div className='pt-20'>
-        <p className='font-semibold text-center'>Why Choose Abhay Road Carrier?</p>
-        <p className='text-center'>Five years of expertise, exceptional service, and cutting-edge technology <br /> ensure your logistics needs are met with precision and care.</p>
+        <p className='font-semibold text-center text-4xl '>Why Choose Abhay Road Carrier?</p>
+        <p className='text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology <br /> ensure your logistics needs are met with precision and care.</p>
         </div>
         
-        <div>
-        <img src="" alt="" />
+        <div className='flex gap-10 pt-20 mx-28 '>
+        <div className='border-2 border-r-[#81B5FA]'>
+        <img className='my-2' src={Arc} alt="" />
+        <p className='text-xl font-semibold my-2'>Customer-Centric Approach</p>
+        <p className='items-center my-2'>Our focus is on delivering exceptional service and building long-term relationships with our clients.</p>
+        </div>
+        
+        
+        <div className='border-2 border-r-[#81B5FA]'>
+        <img className='my-2' src={Cpu} alt="" />
+        <p className='text-xl font-semibold my-2'>Experience and Expertise</p>
+        <p className='items-center my-2'>With five years in the logistic industry, we have the knowledge and skills to handle any transportation challenge.</p>
+        </div>
+        
+        <div className='border-2 border-r-[#81B5FA]'>
+        <img className='my-2' src={User} alt="" />
+        <p className='text-xl font-semibold my-2'>Advanced Technology</p>
+        <p className='items-center my-2'>Stay connected with real-time tracking and seamless communication throughout your shipment's journey.</p>
+        </div>
         </div>
 
       </div>
