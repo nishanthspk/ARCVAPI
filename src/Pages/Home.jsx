@@ -9,7 +9,7 @@ import X6 from '../Assets/_x36_.png';
 import X7 from '../Assets/_x37_.png';
 import Truck from '../Assets/Truck.png';
 import Dummy from '../Assets/Ellipse 1.png';
-import Dummy from '../Assets/Ellipse 1.png';
+import Factory from '../Assets/Factory.png';
 
 
 export default class Home extends PureComponent {
@@ -177,25 +177,27 @@ export default class Home extends PureComponent {
         </div>
         </div>
         
+        <div className='bg-[#D7E8FF]'>
+        <div className='text-center pt-20 '>
+        <p className='text-4xl my-2'>Connect with Us</p>
+        <p className='text-xs my-2'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get <br /> back to you promptly to address your inquiries and provide the support you need.</p>
+        </div>
+        <div className='flex justify-between mx-10 pt-20'>
         <div>
-        <p className='text-4xl'>Connect with Us</p>
-        <p className='text-xs'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get back to you promptly to address your inquiries and provide the support you need.</p>
+        <p className='my-2'>Full Name *</p>
+        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <p className='my-2'>Enquiry Services</p>
+        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <p className='my-2'>Email *</p>
+        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <p className='my-2'>Phone Number (Optional)</p>
+        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <p className='my-2'>Message *</p>
+        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
         </div>
         <div>
-        <div>
-        <p>Full Name *</p>
-        <input className='bg-white' type="text" />
-        <p>Enquiry Services</p>
-        <input className='bg-white' type="text" />
-        <p>Email *</p>
-        <input className='bg-white' type="text" />
-        <p>Phone Number (Optional)</p>
-        <input className='bg-white' type="text" />
-        <p>Message *</p>
-        <input className='bg-white' type="text" />
+        <img className='h-[500px] w-[500px]' src={Factory} alt="" />
         </div>
-        <div>
-        <img src="" alt="" />
         </div>
         </div>
 
