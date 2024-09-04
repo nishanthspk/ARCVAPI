@@ -9,6 +9,7 @@ import X6 from '../Assets/_x36_.png';
 import X7 from '../Assets/_x37_.png';
 import Truck from '../Assets/Truck.png';
 import Dummy from '../Assets/Ellipse 1.png';
+import Dummy from '../Assets/Ellipse 1.png';
 
 
 export default class Home extends PureComponent {
@@ -150,11 +151,11 @@ export default class Home extends PureComponent {
         </div>
         
         <div>
-        <div className='text-center'>
+        <div className='text-center pt-20'>
         <p className='text-4xl'>Our Trusted Clients</p>
         <p className='text-xs'>We are honored to have partnered with a diverse range of clients from various industries. Here are some of the logos and testimonials from those who trust us with their logistics needs.</p>
         </div>
-        <div className='flex justify-between mx-5'>
+        <div className='flex justify-between mx-5 gap-5 pt-10'>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p>Martin Goutry</p>
@@ -173,6 +174,28 @@ export default class Home extends PureComponent {
         <p>John Smith, CEO of Tech Innovations</p>
         <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
+        </div>
+        </div>
+        
+        <div>
+        <p className='text-4xl'>Connect with Us</p>
+        <p className='text-xs'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get back to you promptly to address your inquiries and provide the support you need.</p>
+        </div>
+        <div>
+        <div>
+        <p>Full Name *</p>
+        <input className='bg-white' type="text" />
+        <p>Enquiry Services</p>
+        <input className='bg-white' type="text" />
+        <p>Email *</p>
+        <input className='bg-white' type="text" />
+        <p>Phone Number (Optional)</p>
+        <input className='bg-white' type="text" />
+        <p>Message *</p>
+        <input className='bg-white' type="text" />
+        </div>
+        <div>
+        <img src="" alt="" />
         </div>
         </div>
 
