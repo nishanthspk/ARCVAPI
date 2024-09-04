@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
-import {  useNavigate  } from "react-router-dom";
-import { useState } from 'react'
+import 
 import { Link } from 'react-router-dom';
+
 
 export default class 
  extends PureComponent {
@@ -9,7 +9,7 @@ export default class
     return (
       <div>
       <nav >
-      <img src="" alt="" />
+      <img src={} alt="" />
       </nav>
       </div>
     )
