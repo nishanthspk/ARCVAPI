@@ -24,16 +24,16 @@ export default class Home extends PureComponent {
           <div className=' pt-32 pl-20'>
             <p className='text-5xl font-semibold '>Delivering Your <span className='text-white'> Promise</span> , <br /> Every <span className='text-white'> Mile</span> , Every <span className='text-white'> Time</span>.</p>
             <p className='my-4'>We turn logistics into a seamless journey. With a track record of <br /> reliability and excellence, we ensure your goods reach their destination <br /> safely, efficiently, and on time—every single time.</p>
-            <button className='bg-[#FFFFFF] rounded-lg px-8 py-2 border-b-2 border-black'>Get Your Quote No  →</button>
+            <button className='bg-[#FFFFFF] rounded-lg px-8 py-2 border-b-2 border-black text-semibold'>Get Your Quote No  →</button>
           </div>
-          <div className='pt-12 pr-2 h-[800px] w-[600px] '>
+          <div className='pt-20 pr-2 h-[800px] w-[600px] '>
             <img className='' src={Globe} alt="" />
           </div>
 
         </div>
 
         <div className='absolute inset-0 pt-96'>
-        <div class="bg-blue-50 p-6 rounded-lg mt-40 shadow-lg max-w-4xl mx-auto border-2 border-b-[#81B5FA] ">
+        <div class="bg-blue-50 p-6 rounded-lg mt-36 shadow-lg max-w-4xl mx-auto border-2 border-b-[#81B5FA] ">
           <h2 class="text-2xl font-bold mb-2">Track Your Shipment</h2>
           <p class="text-gray-600 mb-4">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
@@ -80,17 +80,17 @@ export default class Home extends PureComponent {
           </div>
         </div>
 
-        <div class="bg-[#E4EFFF] py-12 rounded-xl mx-10 mt-10 border-2 border-b-[#6695db]">
+        <div class="bg-[#E4EFFF] py-12 rounded-xl mx-10 mt-10 border-8 border-b-[#6695db] border-t-[#6695db] border-transparent">
           <div class="max-w-6xl mx-auto px-4">
             <div class="text-center ">
-              <h2 class="text-3xl font-bold text-gray-900 pt-5 my-4">Our Services</h2>
+              <h2 class="text-3xl font-bold text-gray-900  my-4">Our Services</h2>
               <p class="text-gray-600 mt-2 pt-2">We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 pt-20 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 pt-16 ">
 
               <div class="flex items-start mx-10 my-10">
-                <img src={Box} class="w-16 h-16 mr-4" alt="Freight Transportation Icon" />
+                <img src={Box} class="w-20 h-20 mr-4" alt="Freight Transportation Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Freight Transportation</h3>
                   <p class="text-gray-600 mt-2">Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
@@ -99,7 +99,7 @@ export default class Home extends PureComponent {
 
 
               <div class="flex items-start mx-10 my-10">
-                <img src={X6} class="w-16 h-16 mr-4" alt="Warehousing Solutions Icon" />
+                <img src={X6} class="w-20 h-20 mr-4" alt="Warehousing Solutions Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Warehousing Solutions</h3>
                   <p class="text-gray-600 mt-2">Secure, advanced storage facilities with top-notch inventory management.</p>
@@ -108,7 +108,7 @@ export default class Home extends PureComponent {
 
 
               <div class="flex items-start mx-10 my-10">
-                <img src={X7} class="w-16 h-16 mr-4" alt="Supply Chain Management Icon" />
+                <img src={X7} class="w-20 h-20 mr-4" alt="Supply Chain Management Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Supply Chain Management</h3>
                   <p class="text-gray-600 mt-2">Enhance your operations with our comprehensive supply chain solutions.</p>
@@ -117,7 +117,7 @@ export default class Home extends PureComponent {
 
 
               <div class="flex items-start mx-10 my-10">
-                <img src={X5} class="w-16 h-16 mr-4" alt="Customized Logistics Solutions Icon" />
+                <img src={X5} class="w-20 h-20 mr-4" alt="Customized Logistics Solutions Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Customized Logistics Solutions</h3>
                   <p class="text-gray-600 mt-2">We deliver tailored logistics services to address your specific needs, ensuring precision.</p>
@@ -127,7 +127,7 @@ export default class Home extends PureComponent {
           </div>
         </div>
         
-        <div className='mt-20 bg-[#D7E8FF]'>
+        <div className='mt-20 bg-[#D7E8FF] pt-16'>
         <div className='text-center '>
         <p className='text-4xl my-2'>Our Branches</p>
         <p className='text-xs my-2'>We have a strong network of branches across the country, allowing us to serve you wherever <br /> you are. Find the contact details of our nearest branch below.</p>
@@ -222,20 +222,20 @@ export default class Home extends PureComponent {
         <div className=' mx-4 mt-10'>
         <div className='flex gap-4 mx-10'>
       <img className='h-8' src={Logo} alt="" />
-      <div className='pt-1 font-semibold'>ArcVapi.</div>
+      <div className='pt-1 font-semibold '>ArcVapi.</div>
       </div>
-      <p className='mx-10 pt-2'>Efficient Solutions for All Your Transportation Needs.</p>
+      <p className='mx-10 pt-2 my-1'>Efficient Solutions for All Your Transportation Needs.</p>
      
       </div>
       <div className='flex gap-10 mx-16 mt-10 '>
       <div>
-      <p>Tools</p>
-      <p>About Us</p>
-      <p>Contact</p>
+      <p className='my-1'>Tools</p>
+      <p className='my-1'>About Us</p>
+      <p className='my-1'>Contact</p>
       </div>
       <div>
-      <p>Privacy Policies</p>
-      <p>Terms of service</p>
+      <p className='my-1'>Privacy Policies</p>
+      <p className='my-1'>Terms of service</p>
       </div>
       </div>
       </div>
