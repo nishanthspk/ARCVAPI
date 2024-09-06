@@ -15,10 +15,10 @@ export default class
       <div className='pt-1 font-semibold'>ArcVapi.</div>
       </div>
       <div className='flex gap-4 mx-4'>
-      <p className='pt-1 mx-4'>About Us</p>
-      <p className='pt-1 mx-4'>Contact</p>
+      <p className='pt-1 mx-4  hover:bg-[#81B5FA] rounded-xl px-2 py-1 '>About Us</p>
+      <p className='pt-1 mx-4 hover:bg-[#81B5FA] rounded-xl px-2 py-1 '>Contact</p>
       <div className=''>
-      <button className='bg-[#81B5FA] rounded-2xl px-4 py-1 text-white'>Tools</button>
+      <button className='bg-[#81B5FA] rounded-2xl px-4 py-1 text-white hover:bg-blue-500'>Tools</button>
       </div>
       </div>
       </div>

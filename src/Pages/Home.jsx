@@ -24,7 +24,7 @@ export default class Home extends PureComponent {
           <div className=' pt-32 pl-20'>
             <p className='text-5xl font-semibold '>Delivering Your <span className='text-white'> Promise</span> , <br /> Every <span className='text-white'> Mile</span> , Every <span className='text-white'> Time</span>.</p>
             <p className='my-4'>We turn logistics into a seamless journey. With a track record of <br /> reliability and excellence, we ensure your goods reach their destination <br /> safely, efficiently, and on time—every single time.</p>
-            <button className='bg-[#FFFFFF] rounded-lg px-8 py-2 border-b-2 border-black text-semibold'>Get Your Quote No  →</button>
+            <button className='bg-[#FFFFFF] rounded-lg px-8 py-2 border-b-2 border-black text-semibold '>Get Your Quote No  →</button>
           </div>
           <div className='pt-20 pr-2 h-[800px] w-[600px] '>
             <img className='' src={Globe} alt="" />
@@ -45,7 +45,7 @@ export default class Home extends PureComponent {
               class="w-10/12 p-2 border-2 border-[#81B5FA] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <button
-              class="bg-[#81B5FA] text-white px-4 py-2  rounded-md hover:bg-blue-600 "
+              class="bg-[#81B5FA] text-white px-4 py-2  rounded-md hover:bg-blue-500 "
             >
               Track Now
             </button>
@@ -201,7 +201,7 @@ export default class Home extends PureComponent {
         <p className='my-2'>Message *</p>
         <input className='bg-white w-96 p-1 rounded-lg' type="text" />
         <div className='pt-10 '>
-        <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg'>Send Message →</button>
+        <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg hover:bg-blue-500'>Send Message →</button>
         </div>
         </div>
         <div>
