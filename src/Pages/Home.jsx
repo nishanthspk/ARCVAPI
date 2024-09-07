@@ -32,7 +32,7 @@ export default class Home extends PureComponent {
 
         </div>
 
-        <div className='absolute inset-0 pt-80 md:pt-96 px-8'>
+        <div className='absolute inset-0 pt-72 md:pt-96 px-8'>
         <div class="bg-blue-50 md:p-6 p-2  max-w-80 rounded-lg mt-80 md:mt-36 shadow-lg  md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
           <h2 class="text-2xl  font-semibold md:mb-2">Track Your Shipment</h2>
           <p class="text-gray-600 md:mb-4 text-xs pt-2">
