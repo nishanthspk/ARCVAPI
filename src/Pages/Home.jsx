@@ -32,20 +32,20 @@ export default class Home extends PureComponent {
 
         </div>
 
-        <div className='absolute inset-0 pt-96'>
-        <div class="bg-blue-50 p-6 rounded-lg mt-36 shadow-lg max-w-4xl mx-auto border-2 border-b-[#81B5FA] ">
-          <h2 class="text-2xl font-bold mb-2">Track Your Shipment</h2>
-          <p class="text-gray-600 mb-4">
+        <div className='absolute inset-0 pt-96 md:pt-96'>
+        <div class="bg-blue-50 md:p-6 rounded-lg mt-80 md:mt-36 shadow-lg md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
+          <h2 class="text-2xl font-bold  md:mb-2">Track Your Shipment</h2>
+          <p class="text-gray-600 md:mb-4">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
           </p>
-          <div class="flex items-center space-x-2">
+          <div class="flex items-center md:space-x-2">
             <input
               type="text"
               placeholder="Enter the track no."
-              class="w-10/12 p-2 border-2 border-[#81B5FA] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+              class="md:w-10/12 md:p-2 border-2 border-[#81B5FA] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <button
-              class="bg-[#81B5FA] text-white px-4 py-2  rounded-md hover:bg-blue-500 "
+              class="bg-[#81B5FA] text-white md:px-4 md:py-2  rounded-md hover:bg-blue-500 "
             >
               Track Now
             </button>
