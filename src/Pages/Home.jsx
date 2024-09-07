@@ -26,26 +26,26 @@ export default class Home extends PureComponent {
             <p className=' md:my-4 text-xs pt-4 '>We turn logistics into a seamless journey. With a track record of  reliability <br /> and excellence, we ensure your goods reach their destination <br  /> safely, efficiently, and on time—every single time.</p>
             <button className='bg-[#FFFFFF] rounded-lg mt-5 px-4 py-2 md:px-8 md:py-2 border-b-2 border-black text-semibold '>Get Your Quote No  →</button>
           </div>
-          <div className='pt-14 md:pt-20 md:pr-2 md:h-[800px]  md:w-[600px] '>
+          <div className='pt-4 md:pt-20 md:pr-2 pb-20 md:h-[800px]  md:w-[600px] '>
             <img className='' src={Globe} alt="" />
           </div>
 
         </div>
 
-        <div className='absolute inset-0 pt-80 md:pt-96 px-5'>
+        <div className='absolute inset-0 pt-80 md:pt-96 px-8'>
         <div class="bg-blue-50 md:p-6 p-2  max-w-80 rounded-lg mt-80 md:mt-36 shadow-lg  md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
           <h2 class="text-2xl  font-semibold md:mb-2">Track Your Shipment</h2>
           <p class="text-gray-600 md:mb-4 text-xs pt-2">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
           </p>
-          <div class="flex items-center md:space-x-2 ">
+          <div class="flex items-center md:space-x-2 space-x-2 ">
             <input
               type="text"
               placeholder="Enter the track no."
-              class="md:w-10/12 md:p-2 border-2 border-[#81B5FA] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+              class="md:w-10/12 md:p-2 border-2 md:border-2 border-[#81B5FA] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <button
-              class="bg-[#81B5FA] text-white md:px-4 md:py-2  rounded-md hover:bg-blue-500 "
+              class="bg-[#81B5FA] text-white md:px-4 md:py-2 px-4 py-1 rounded-md hover:bg-blue-500 "
             >
               Track Now
             </button>
