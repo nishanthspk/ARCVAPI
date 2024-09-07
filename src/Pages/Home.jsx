@@ -38,7 +38,7 @@ export default class Home extends PureComponent {
           <p class="text-gray-600 md:mb-4 text-xs pt-2">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
           </p>
-          <div class="flex items-center md:space-x-2 space-x-2 ">
+          <div class="flex items-center md:space-x-2 space-x-2 pt-2">
             <input
               type="text"
               placeholder="Enter the track no."
