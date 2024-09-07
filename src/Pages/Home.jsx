@@ -33,12 +33,12 @@ export default class Home extends PureComponent {
         </div>
 
         <div className='absolute inset-0 pt-96 md:pt-96'>
-        <div class="bg-blue-50 md:p-6 rounded-lg mt-80 md:mt-36 shadow-lg md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
-          <h2 class="text-2xl font-bold  md:mb-2">Track Your Shipment</h2>
-          <p class="text-gray-600 md:mb-4">
+        <div class="bg-blue-50 md:p-6 p-4 rounded-lg mt-80 md:mt-36 shadow-lg md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
+          <h2 class="text-2xl  font-semibold md:mb-2">Track Your Shipment</h2>
+          <p class="text-gray-600 md:mb-4 text-xs pt-2">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
           </p>
-          <div class="flex items-center md:space-x-2">
+          <div class="flex items-center md:space-x-2 ">
             <input
               type="text"
               placeholder="Enter the track no."
