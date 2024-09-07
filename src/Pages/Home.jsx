@@ -26,13 +26,13 @@ export default class Home extends PureComponent {
             <p className=' md:my-4 text-xs pt-4 '>We turn logistics into a seamless journey. With a track record of  reliability <br /> and excellence, we ensure your goods reach their destination <br  /> safely, efficiently, and on time—every single time.</p>
             <button className='bg-[#FFFFFF] rounded-lg mt-5 px-4 py-2 md:px-8 md:py-2 border-b-2 border-black text-semibold '>Get Your Quote No  →</button>
           </div>
-          <div className='pt-10 md:pt-20 md:pr-2 md:h-[800px]  md:w-[600px] '>
+          <div className='pt-14 md:pt-20 md:pr-2 md:h-[800px]  md:w-[600px] '>
             <img className='' src={Globe} alt="" />
           </div>
 
         </div>
 
-        <div className='absolute inset-0 pt-96 md:pt-96'>
+        <div className='absolute inset-0 pt-80 md:pt-96'>
         <div class="bg-blue-50 md:p-6 p-4 rounded-lg mt-80 md:mt-36 shadow-lg md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
           <h2 class="text-2xl  font-semibold md:mb-2">Track Your Shipment</h2>
           <p class="text-gray-600 md:mb-4 text-xs pt-2">
