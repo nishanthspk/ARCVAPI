@@ -56,10 +56,10 @@ export default class Home extends PureComponent {
 
         <div className='pt-40'>
           <p className='font-semibold text-center text-4xl '>Why Choose Abhay Road Carrier?</p>
-          <p className='md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
+          <p className='text-center md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
         </div>
 
-        <div className='flex md:gap-10 md:pt-20 md:mx-28 '>
+        <div className='flex md:gap-10 md:pt-20 md:mx-28  '>
           <div className='border-2 border-r-[#81B5FA] border-transparent'>
             <img className='md:my-2' src={Arc} alt="" />
             <p className='text-xl font-semibold md:my-2'>Customer-Centric Approach</p>
