@@ -10,7 +10,7 @@ export default class
       <div className='font DM sans bg-[#81B5FA] pt-4 md:pt-8'>
       <nav >
       <div className='flex justify-between md:mx-20  rounded-3xl p-2 md:p-2 bg-[#F4F7FF]'>
-      <div className='flex md:gap-4 md:mx-4 gap-2 mx-2'>
+      <div className='flex md:gap-4 md:mx-4 gap-2 px-2'>
       <img className='md:h-8 h-7 ' src={Logo} alt="" />
       <div className='md:pt-1 pt-1 font-semibold '>ArcVapi.</div>
       </div>
