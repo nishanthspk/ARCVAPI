@@ -14,11 +14,11 @@ export default class
       <img className='md:h-8 h-7 ' src={Logo} alt="" />
       <div className='md:pt-1 pt-1 font-semibold '>ArcVapi.</div>
       </div>
-      <div className='flex md:gap-4 md:mx-4 gap-2'>
+      <div className='flex md:gap-4 md:mx-4 gap-4'>
       <p className='md:pt-1 pt-1 md:mx-4  hover:bg-[#81B5FA] rounded-xl md:px-2 md:py-1 '>About Us</p>
       <p className='md:pt-1 pt-1 md:mx-4 hover:bg-[#81B5FA] rounded-xl md:px-2 md:py-1 '>Contact</p>
       <div className=''>
-      <button className='bg-[#81B5FA] rounded-2xl px-2 py-1 md:px-4 md:py-1 text-white hover:bg-blue-500'>Tools</button>
+      <button className='bg-[#81B5FA] rounded-2xl px-4 py-1 md:px-4 md:py-1 text-white hover:bg-blue-500'>Tools</button>
       </div>
       </div>
       </div>
