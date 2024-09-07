@@ -20,7 +20,7 @@ export default class Home extends PureComponent {
     return (
       <div>
       <div className='relative'>
-        <div className='h-screen font DM Sans bg-[#81B5FA] md:flex justify-between '>
+        <div className='md:h-screen font DM Sans bg-[#81B5FA] md:flex justify-between '>
           <div className=' md:pt-32 md:pl-20 pl-5'>
             <p className='text-2xl md:text-5xl font-semibold pt-20 '>Delivering Your <span className='text-white'> Promise</span> , <br /> Every <span className='text-white'> Mile</span> , Every <span className='text-white'> Time</span>.</p>
             <p className=' md:my-4 text-xs pt-4 '>We turn logistics into a seamless journey. With a track record of  reliability <br /> and excellence, we ensure your goods reach their destination <br  /> safely, efficiently, and on time—every single time.</p>
@@ -32,8 +32,8 @@ export default class Home extends PureComponent {
 
         </div>
 
-        <div className='absolute inset-0 pt-80 md:pt-96'>
-        <div class="bg-blue-50 md:p-6 p-4 rounded-lg mt-80 md:mt-36 shadow-lg md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
+        <div className='absolute inset-0 pt-80 md:pt-96 px-5'>
+        <div class="bg-blue-50 md:p-6 p-2  max-w-80 rounded-lg mt-80 md:mt-36 shadow-lg  md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
           <h2 class="text-2xl  font-semibold md:mb-2">Track Your Shipment</h2>
           <p class="text-gray-600 md:mb-4 text-xs pt-2">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
