@@ -26,7 +26,7 @@ export default class Home extends PureComponent {
             <p className=' md:my-4 text-xs pt-4'>We turn logistics into a seamless journey. With a track record of <br /> reliability and excellence, we ensure your goods reach their destination <br /> safely, efficiently, and on time—every single time.</p>
             <button className='bg-[#FFFFFF] rounded-lg mt-5 px-4 py-2 md:px-8 md:py-2 border-b-2 border-black text-semibold '>Get Your Quote No  →</button>
           </div>
-          <div className=' md:pt-20 md:pr-2 md:h-[800px]  md:w-[600px] '>
+          <div className='pt-10 md:pt-20 md:pr-2 md:h-[800px]  md:w-[600px] '>
             <img className='' src={Globe} alt="" />
           </div>
 
