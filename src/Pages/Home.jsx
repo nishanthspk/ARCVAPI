@@ -59,23 +59,23 @@ export default class Home extends PureComponent {
           <p className='text-center md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
         </div>
 
-        <div className='flex md:gap-10 md:pt-20 md:mx-28  '>
-        <div>
-          <div className='border-2 border-r-[#81B5FA] border-transparent'>
+        <div className='md:flex md:gap-10 md:pt-20 md:mx-28  '>
+        <div className='flex justify-between mx-2'>
+          <div className='border-2 md:border-r-[#81B5FA] border-transparent'>
             <img className='md:my-2' src={Arc} alt="" />
             <p className='md:text-xl font-semibold md:my-2'>Customer-Centric Approach</p>
             <p className='items-center md:my-2'>Our focus is on delivering exceptional service and building long-term relationships with our clients.</p>
           </div>
 
 
-          <div className='border-2 border-r-[#81B5FA] border-transparent'>
+          <div className='border-2  md:border-r-[#81B5FA]  border-transparent'>
             <img className='md:my-2' src={Cpu} alt="" />
             <p className='md:text-xl font-semibold md:my-2'>Experience and Expertise</p>
             <p className='items-center md:my-2'>With five years in the logistic industry, we have the knowledge and skills to handle any transportation challenge.</p>
           </div>
           </div>
 
-          <div className='border-2 border-r-[#81B5FA] border-transparent'>
+          <div className='border-2 md:border-r-[#81B5FA] border-transparent '>
             <img className='md:my-2' src={User} alt="" />
             <p className='md:text-xl font-semibold md:my-2'>Advanced Technology</p>
             <p className='items-center md:my-2'>Stay connected with real-time tracking and seamless communication throughout your shipment's journey.</p>
