@@ -61,7 +61,7 @@ export default class Home extends PureComponent {
 
         <div className='md:flex md:gap-10 md:pt-20 md:mx-28  '>
         <div className='flex justify-between mx-2'>
-          <div className='border-2 md:border-r-[#81B5FA] border-transparent'>
+          <div className=' md:border-2 md:border-r-[#81B5FA] border-transparent'>
             <img className='md:my-2' src={Arc} alt="" />
             <p className='md:text-xl font-semibold md:my-2'>Customer-Centric Approach</p>
             <p className='items-center md:my-2'>Our focus is on delivering exceptional service and building long-term relationships with our clients.</p>
