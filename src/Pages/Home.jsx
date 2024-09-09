@@ -59,7 +59,7 @@ export default class Home extends PureComponent {
           <p className='text-center mx-6 text-xs text-gray-400  md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
         </div>
 
-        <div className='md:flex md:gap-10 md:pt-20 md:mx-28 pt-16 '>
+        <div className='md:flex  md:pt-20 md:mx-28 pt-16 '>
         <div className='flex justify-between mx-8'>
           <div className='border-2 border-l-[#81B5FA] md:border-2 md:border-r-[#81B5FA] md:border-l-0 border-transparent px-5'>
             <img className='md:my-2' src={Arc} alt="" />
@@ -68,63 +68,64 @@ export default class Home extends PureComponent {
           </div>
 
 
-          <div className='border-2 border-l-[#81B5FA] md:border-l-0 px-5 md:border-r-[#81B5FA]  border-transparent'>
+          <div className='border-2 border-l-[#81B5FA] md:border-l-0 md:px-5 px-4 md:border-r-[#81B5FA]  border-transparent'>
             <img className='md:my-2' src={Cpu} alt="" />
             <p className='md:text-xl font-semibold md:my-2 text-xs my-2'>Experience and Expertise</p>
             <p className='items-center md:my-2 text-xs  text-gray-400 my-2'>With five years in the logistic industry, we have the knowledge and skills to handle any transportation challenge.</p>
           </div>
           </div>
           
-          <div className='pl-24 pt-4'>
-          <div className=' border-transparent border-2 border-l-[#81B5FA] md:border-l-0 pt-10 pl-2'>
+        <div className="flex justify-center md:block pl-20 pt-10  md:p-0">
+          <div className=' border-transparent border-2 border-l-[#81B5FA] md:border-l-0 px-4 '>
             <img className='md:my-2' src={User} alt="" />
             <p className='md:text-xl text-xs font-semibold md:my-2'>Advanced Technology</p>
             <p className='items-center text-xs text-gray-400 md:my-2'>Stay connected with real-time tracking and seamless communication throughout your shipment's journey.</p>
           </div>
           </div>
+          
         </div>
 
-        <div class="bg-[#E4EFFF] py-12 rounded-xl mx-10 mt-10 border-8 border-b-[#6695db] border-t-[#6695db] border-transparent">
-          <div class="max-w-6xl mx-auto px-4">
+        <div class="bg-[#E4EFFF] md:py-12 rounded-xl md:mx-10 md:mt-10 mt-10 md:border-8 border-b-[#6695db] border-t-[#6695db] border-transparent">
+          <div class="md:max-w-6xl md:mx-auto md:px-4">
             <div class="text-center ">
-              <h2 class="text-3xl font-bold text-gray-900  my-4">Our Services</h2>
-              <p class="text-gray-600 mt-2 pt-2">We offer reliable freight transportation, secure warehousing, efficient supply chain <br /> management, and tailored logistics services to meet your unique needs.</p>
+              <h2 class="md:text-3xl font-bold text-xs text-gray-900  md:my-4">Our Services</h2>
+              <p class=" mt-2 text-xs text-gray-400 pt-2">We offer reliable freight transportation, secure warehousing, efficient supply chain  management, and tailored logistics services to meet your unique needs.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 pt-16 ">
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:gap-8 md:pt-16 ">
 
-              <div class="flex items-start mx-10 my-10">
-                <img src={Box} class="w-20 h-20 mr-4" alt="Freight Transportation Icon" />
+              <div class="flex items-start md:mx-10 md:my-10">
+                <img src={Box} class="w-20 h-20 md:mr-4" alt="Freight Transportation Icon" />
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900">Freight Transportation</h3>
-                  <p class="text-gray-600 mt-2">Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
+                  <h3 class="text-xs md:text-xl font-semibold text-gray-900">Freight Transportation</h3>
+                  <p class="text-gray-600 md:mt-2">Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
                 </div>
               </div>
 
 
-              <div class="flex items-start mx-10 my-10">
-                <img src={X6} class="w-20 h-20 mr-4" alt="Warehousing Solutions Icon" />
+              <div class=" flex items-start md:mx-10 md:my-10">
+                <img src={X6} class="w-20 h-20 md:mr-4" alt="Warehousing Solutions Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Warehousing Solutions</h3>
-                  <p class="text-gray-600 mt-2">Secure, advanced storage facilities with top-notch inventory management.</p>
+                  <p class="text-gray-600 md:mt-2">Secure, advanced storage facilities with top-notch inventory management.</p>
                 </div>
               </div>
 
 
-              <div class="flex items-start mx-10 my-10">
-                <img src={X7} class="w-20 h-20 mr-4" alt="Supply Chain Management Icon" />
+              <div class="flex items-start md:mx-10 md:my-10">
+                <img src={X7} class="w-20 h-20 md:mr-4" alt="Supply Chain Management Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Supply Chain Management</h3>
-                  <p class="text-gray-600 mt-2">Enhance your operations with our comprehensive supply chain solutions.</p>
+                  <p class="text-gray-600 md:mt-2">Enhance your operations with our comprehensive supply chain solutions.</p>
                 </div>
               </div>
 
 
-              <div class="flex items-start mx-10 my-10">
-                <img src={X5} class="w-20 h-20 mr-4" alt="Customized Logistics Solutions Icon" />
+              <div class="flex items-start md:mx-10 md:my-10">
+                <img src={X5} class="w-20 h-20 md:mr-4" alt="Customized Logistics Solutions Icon" />
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900">Customized Logistics Solutions</h3>
-                  <p class="text-gray-600 mt-2">We deliver tailored logistics services to address your specific needs, ensuring precision.</p>
+                  <p class="text-gray-600 md:mt-2">We deliver tailored logistics services to address your specific needs, ensuring precision.</p>
                 </div>
               </div>
             </div>
