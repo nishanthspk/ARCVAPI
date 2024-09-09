@@ -140,17 +140,17 @@ export default class Home extends PureComponent {
         <div className='flex mx-2'>
         <div className='md:pt-28 md:pl-16 pt-5'>
         <div>
-        <p className='text-[#81B5FA] text-xs md:text-xl md:my-2 my-2'>📍Vapi ( Head Office )</p>
+        <p className='text-[#81B5FA] text-xs md:text-xl md:my-2 my-3'>📍Vapi ( Head Office )</p>
         <p className='md:my-2 md:pl-5 text-xs md:text-[16px] my-2'>Address: Plot no.10, Param Industrial Hub, Karvad  Road, Karvad, Vapi, 396195.</p>
         </div>
         
         <div>
-        <p className='text-[#81B5FA] md:my-2 text-xs md:text-xl my-2'>📍Raipur</p>
+        <p className='text-[#81B5FA] md:my-2 text-xs md:text-xl my-3'>📍Raipur</p>
         <p className='md:my-2 md:pl-5 text-xs md:text-[16px] my-2'>Address: Block No. 7, Parking No. 3, Transport  Nagar, Rawabhata, Raipur ( C.G.) – 493221.</p>
         </div>
         
         <div>
-        <p className='text-[#81B5FA] md:my-2 text-xs md:text-xl my-2'>📍Pune</p>
+        <p className='text-[#81B5FA] md:my-2 text-xs md:text-xl my-3'>📍Pune</p>
         <p className='md:pl-5 pb-10 md:pb-40 text-xs md:text-[16px] my-2'>Address: Shop No. 2, Gate no. 57, Dehu-Alandi  Road, Opp. Gulmohar Compound, Talawade, <br /> Pune ( MH ) – 411062</p>
         </div>
         </div>
@@ -163,9 +163,9 @@ export default class Home extends PureComponent {
         </div>
         
         <div>
-        <div className='text-center pt-20'>
-        <p className='text-4xl'>Our Trusted Clients</p>
-        <p className='text-xs'>We are honored to have partnered with a diverse range of clients from various industries. Here are some of the logos and testimonials from those who trust us with their logistics needs.</p>
+        <div className='text-center pt-16'>
+        <p className='md:text-4xl text-2xl font-bold'>Our Trusted Clients</p>
+        <p className='text-xs pt-2'>We are honored to have partnered with a diverse range of clients from various industries. Here are some of the logos and testimonials from those who trust us with their logistics needs.</p>
         </div>
         <div className='flex justify-between mx-5 gap-5 pt-10'>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
@@ -181,6 +181,12 @@ export default class Home extends PureComponent {
         <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
+        <img src={Dummy} alt="" />
+        <p>Martin Goutry</p>
+        <p>John Smith, CEO of Tech Innovations</p>
+        <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        </div>
+        <div className='md:hidden bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p>Martin Goutry</p>
         <p>John Smith, CEO of Tech Innovations</p>
