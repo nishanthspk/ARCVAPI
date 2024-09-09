@@ -138,21 +138,21 @@ export default class Home extends PureComponent {
         <div className='pt-20 pl-32'>
         <div>
         <p className='text-[#81B5FA] my-2'>📍Vapi ( Head Office )</p>
-        <p className='my-2 pl-5'>Address: Plot no.10, Param Industrial Hub, Karvad <br /> Road, Karvad, Vapi, 396195.</p>
+        <p className='my-2 md:pl-5'>Address: Plot no.10, Param Industrial Hub, Karvad <br /> Road, Karvad, Vapi, 396195.</p>
         </div>
         
         <div>
         <p className='text-[#81B5FA] my-2'>📍Raipur</p>
-        <p className='my-2 pl-5'>Address: Block No. 7, Parking No. 3, Transport <br /> Nagar, Rawabhata, Raipur ( C.G.) – 493221.</p>
+        <p className='my-2 md:pl-5'>Address: Block No. 7, Parking No. 3, Transport <br /> Nagar, Rawabhata, Raipur ( C.G.) – 493221.</p>
         </div>
         
         <div>
         <p className='text-[#81B5FA] my-2'>📍Pune</p>
-        <p className='pl-5'>Address: Shop No. 2, Gate no. 57, Dehu-Alandi <br /> Road, Opp. Gulmohar Compound, Talawade, <br /> Pune ( MH ) – 411062</p>
+        <p className='md:pl-5'>Address: Shop No. 2, Gate no. 57, Dehu-Alandi <br /> Road, Opp. Gulmohar Compound, Talawade, <br /> Pune ( MH ) – 411062</p>
         </div>
         </div>
         
-        <div className='mx-20 pl-5 pt-2' >
+        <div className='md:mx-20 md:pl-5 pt-2' >
         <img className='h-[450px] w-[600px]' src={Truck} alt="" />
         </div>
         </div>
@@ -190,18 +190,18 @@ export default class Home extends PureComponent {
         <p className='text-4xl my-2'>Connect with Us</p>
         <p className='text-xs my-2'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get <br /> back to you promptly to address your inquiries and provide the support you need.</p>
         </div>
-        <div className='flex justify-between mx-10 pt-20'>
+        <div className='flex justify-between md:mx-10 md:pt-20'>
         <div>
         <p className='my-2'>Full Name *</p>
-        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
         <p className='my-2'>Enquiry Services</p>
-        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
         <p className='my-2'>Email *</p>
-        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
         <p className='my-2'>Phone Number (Optional)</p>
-        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
         <p className='my-2'>Message *</p>
-        <input className='bg-white w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
         <div className='pt-10 '>
         <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg hover:bg-blue-500'>Send Message →</button>
         </div>
@@ -229,7 +229,7 @@ export default class Home extends PureComponent {
       <p className='mx-10 pt-2 my-1'>Efficient Solutions for All Your Transportation Needs.</p>
      
       </div>
-      <div className='flex gap-10 mx-16 mt-10 '>
+      <div className='flex md:gap-10 md:mx-16 mt-10 '>
       <div>
       <p className='my-1'>Tools</p>
       <p className='my-1'>About Us</p>
