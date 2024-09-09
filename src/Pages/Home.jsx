@@ -60,18 +60,18 @@ export default class Home extends PureComponent {
         </div>
 
         <div className='md:flex md:gap-10 md:pt-20 md:mx-28 pt-16 '>
-        <div className='flex justify-between mx-2'>
-          <div className='border-2 border-l-[#81B5FA] md:border-2 md:border-r-[#81B5FA] md:border-l-0 border-transparent'>
+        <div className='flex justify-between mx-8'>
+          <div className='border-2 border-l-[#81B5FA] md:border-2 md:border-r-[#81B5FA] md:border-l-0 border-transparent pl-2 pr-2'>
             <img className='md:my-2' src={Arc} alt="" />
-            <p className='md:text-xl font-semibold md:my-2'>Customer-Centric Approach</p>
-            <p className='items-center md:my-2'>Our focus is on delivering exceptional service and building long-term relationships with our clients.</p>
+            <p className='md:text-xl font-semibold text-xs md:my-2 my-2'>Customer-Centric Approach</p>
+            <p className='items-center text-xs text-gray-400 my-2 md:my-2'>Our focus is on delivering exceptional service and building long-term relationships with our clients.</p>
           </div>
 
 
-          <div className='border-2  md:border-r-[#81B5FA]  border-transparent'>
+          <div className='border-2 border-l-[#81B5FA] md:border-l-0 px-5 md:border-r-[#81B5FA]  border-transparent'>
             <img className='md:my-2' src={Cpu} alt="" />
-            <p className='md:text-xl font-semibold md:my-2'>Experience and Expertise</p>
-            <p className='items-center md:my-2'>With five years in the logistic industry, we have the knowledge and skills to handle any transportation challenge.</p>
+            <p className='md:text-xl font-semibold md:my-2 text-xs my-2'>Experience and Expertise</p>
+            <p className='items-center md:my-2 text-xs text-gray-400 my-2'>With five years in the logistic industry, we have the knowledge and skills to handle any transportation challenge.</p>
           </div>
           </div>
 
