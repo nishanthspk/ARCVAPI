@@ -132,30 +132,30 @@ export default class Home extends PureComponent {
           </div>
         </div>
         
-        <div className='md:mt-20 bg-[#D7E8FF] md:pt-16'>
+        <div className='md:mt-20 mt-10 pt-5 bg-[#D7E8FF] md:pt-16'>
         <div className='text-center '>
         <p className='md:text-4xl md:my-2 font-bold'>Our Branches</p>
-        <p className='text-xs md:my-2'>We have a strong network of branches across the country, allowing us to serve you wherever <br /> you are. Find the contact details of our nearest branch below.</p>
+        <p className='text-xs md:my-2'>We have a strong network of branches across the country, allowing us to serve you wherever  you are. Find the contact details of our nearest branch below.</p>
         </div>
         <div className='flex'>
         <div className='md:pt-20 md:pl-32'>
         <div>
-        <p className='text-[#81B5FA] my-2'>📍Vapi ( Head Office )</p>
-        <p className='my-2 md:pl-5'>Address: Plot no.10, Param Industrial Hub, Karvad <br /> Road, Karvad, Vapi, 396195.</p>
+        <p className='text-[#81B5FA] text-xs md:text-xl md:my-2'>📍Vapi ( Head Office )</p>
+        <p className='md:my-2 md:pl-5 text-xs md:text-[16px]'>Address: Plot no.10, Param Industrial Hub, Karvad  Road, Karvad, Vapi, 396195.</p>
         </div>
         
         <div>
-        <p className='text-[#81B5FA] my-2'>📍Raipur</p>
-        <p className='my-2 md:pl-5'>Address: Block No. 7, Parking No. 3, Transport <br /> Nagar, Rawabhata, Raipur ( C.G.) – 493221.</p>
+        <p className='text-[#81B5FA] md:my-2 text-xs md:text-xl'>📍Raipur</p>
+        <p className='md:my-2 md:pl-5 text-xs md:text-[16px]'>Address: Block No. 7, Parking No. 3, Transport  Nagar, Rawabhata, Raipur ( C.G.) – 493221.</p>
         </div>
         
         <div>
-        <p className='text-[#81B5FA] my-2'>📍Pune</p>
-        <p className='md:pl-5'>Address: Shop No. 2, Gate no. 57, Dehu-Alandi <br /> Road, Opp. Gulmohar Compound, Talawade, <br /> Pune ( MH ) – 411062</p>
+        <p className='text-[#81B5FA] md:my-2 text-xs md:text-xl'>📍Pune</p>
+        <p className='md:pl-5 text-xs md:text-[16px]'>Address: Shop No. 2, Gate no. 57, Dehu-Alandi  Road, Opp. Gulmohar Compound, Talawade, <br /> Pune ( MH ) – 411062</p>
         </div>
         </div>
         
-        <div className='md:mx-20 md:pl-5 pt-2' >
+        <div className='md:mx-20 md:pl-3 md:pt-2' >
         <img className='h-[450px] w-[600px]' src={Truck} alt="" />
         </div>
         </div>
