@@ -32,10 +32,10 @@ export default class Home extends PureComponent {
 
         </div>
 
-        <div className='absolute inset-0 pt-72 md:pt-96 pl-12'>
+        <div className='absolute inset-0 pt-72 md:pt-96 pl-12 '>
         <div class="bg-blue-50 md:p-6 p-2  max-w-80 rounded-lg mt-80 md:mt-36 shadow-lg  md:max-w-4xl md:mx-auto border-2 border-b-[#81B5FA] ">
           <h2 class="text-2xl  font-semibold md:mb-2">Track Your Shipment</h2>
-          <p class="text-gray-600 md:mb-4 text-xs pt-2">
+          <p class="text-gray-400 md:mb-4 text-xs pt-2 ">
             Enter your tracking number below to monitor the status of your shipment. Our advanced tracking system provides you with up-to-the-minute updates, ensuring you stay informed throughout the entire delivery process.
           </p>
           <div class="flex items-center md:space-x-2 space-x-2 pt-2">
@@ -56,7 +56,7 @@ export default class Home extends PureComponent {
 
         <div className='pt-40 md:pt-40'>
           <p className='font-semibold md:text-center md:text-4xl text-xl text-center'>Why Choose Abhay Road Carrier?</p>
-          <p className='text-center mx-6 text-xs   md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
+          <p className='text-center mx-6 text-xs text-gray-400  md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
         </div>
 
         <div className='md:flex md:gap-10 md:pt-20 md:mx-28  '>
