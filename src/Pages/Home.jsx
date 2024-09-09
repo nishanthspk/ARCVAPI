@@ -85,7 +85,7 @@ export default class Home extends PureComponent {
           
         </div>
 
-        <div class="bg-[#E4EFFF] md:py-12 rounded-xl md:mx-10 md:mt-10 mt-10 md:border-8 border-b-[#6695db] border-t-[#6695db] border-transparent">
+        <div class="bg-[#E4EFFF] md:py-12 rounded-xl md:mx-10 md:mt-10 mt-10 border-4 mx-2 md:border-8 border-b-[#6695db] border-t-[#6695db] border-transparent">
           <div class="md:max-w-6xl md:mx-auto md:px-4">
             <div class="text-center ">
               <h2 class="md:text-3xl font-bold text-xs text-gray-900  md:my-4">Our Services</h2>
@@ -94,51 +94,51 @@ export default class Home extends PureComponent {
 
             <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:gap-8 md:pt-16 ">
 
-              <div class="flex items-start md:mx-10 md:my-10">
+              <div class="flex items-start md:mx-10 md:my-10 my-5">
                 <img src={Box} class="w-20 h-20 md:mr-4" alt="Freight Transportation Icon" />
-                <div>
-                  <h3 class="text-xs md:text-xl font-semibold text-gray-900">Freight Transportation</h3>
-                  <p class="text-gray-600 md:mt-2">Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
+                <div className='mx-2' >
+                  <h3 class="text-xs md:text-xl font-bold text-gray-900">Freight Transportation</h3>
+                  <p class="text-gray-600 md:mt-2 mt-2 text-xs">Reliable freight services with a modern fleet, ensuring safe and timely deliveries.</p>
                 </div>
               </div>
 
 
-              <div class=" flex items-start md:mx-10 md:my-10">
+              <div class=" flex items-start md:mx-10 md:my-10 my-5">
                 <img src={X6} class="w-20 h-20 md:mr-4" alt="Warehousing Solutions Icon" />
-                <div>
-                  <h3 class="text-xl font-semibold text-gray-900">Warehousing Solutions</h3>
-                  <p class="text-gray-600 md:mt-2">Secure, advanced storage facilities with top-notch inventory management.</p>
+                <div className='mx-2'>
+                  <h3 class="text-xs md:text-xl font-bold text-gray-900">Warehousing Solutions</h3>
+                  <p class="text-gray-600 md:mt-2 mt-2 text-xs">Secure, advanced storage facilities with top-notch inventory management.</p>
                 </div>
               </div>
 
 
-              <div class="flex items-start md:mx-10 md:my-10">
+              <div class="flex items-start md:mx-10 md:my-10 my-5">
                 <img src={X7} class="w-20 h-20 md:mr-4" alt="Supply Chain Management Icon" />
-                <div>
-                  <h3 class="text-xl font-semibold text-gray-900">Supply Chain Management</h3>
-                  <p class="text-gray-600 md:mt-2">Enhance your operations with our comprehensive supply chain solutions.</p>
+                <div className='mx-2'>
+                  <h3 class="text-xs md:text-xl font-bold text-gray-900">Supply Chain Management</h3>
+                  <p class="text-gray-600 md:mt-2 mt-2 text-xs">Enhance your operations with our comprehensive supply chain solutions.</p>
                 </div>
               </div>
 
 
-              <div class="flex items-start md:mx-10 md:my-10">
+              <div class="flex items-start md:mx-10 md:my-10 my-5">
                 <img src={X5} class="w-20 h-20 md:mr-4" alt="Customized Logistics Solutions Icon" />
-                <div>
-                  <h3 class="text-xl font-semibold text-gray-900">Customized Logistics Solutions</h3>
-                  <p class="text-gray-600 md:mt-2">We deliver tailored logistics services to address your specific needs, ensuring precision.</p>
+                <div className='mx-2'>
+                  <h3 class="text-xs md:text-xl font-bold text-gray-900">Customized Logistics Solutions</h3>
+                  <p class="text-gray-600 md:mt-2 mt-2 text-xs">We deliver tailored logistics services to address your specific needs, ensuring precision.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         
-        <div className='mt-20 bg-[#D7E8FF] pt-16'>
+        <div className='md:mt-20 bg-[#D7E8FF] md:pt-16'>
         <div className='text-center '>
-        <p className='text-4xl my-2'>Our Branches</p>
-        <p className='text-xs my-2'>We have a strong network of branches across the country, allowing us to serve you wherever <br /> you are. Find the contact details of our nearest branch below.</p>
+        <p className='md:text-4xl md:my-2 font-bold'>Our Branches</p>
+        <p className='text-xs md:my-2'>We have a strong network of branches across the country, allowing us to serve you wherever <br /> you are. Find the contact details of our nearest branch below.</p>
         </div>
         <div className='flex'>
-        <div className='pt-20 pl-32'>
+        <div className='md:pt-20 md:pl-32'>
         <div>
         <p className='text-[#81B5FA] my-2'>📍Vapi ( Head Office )</p>
         <p className='my-2 md:pl-5'>Address: Plot no.10, Param Industrial Hub, Karvad <br /> Road, Karvad, Vapi, 396195.</p>
