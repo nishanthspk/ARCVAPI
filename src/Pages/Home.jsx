@@ -59,9 +59,9 @@ export default class Home extends PureComponent {
           <p className='text-center mx-6 text-xs text-gray-400  md:text-center my-4'>Five years of expertise, exceptional service, and cutting-edge technology  ensure your logistics needs are met with precision and care.</p>
         </div>
 
-        <div className='md:flex md:gap-10 md:pt-20 md:mx-28  '>
+        <div className='md:flex md:gap-10 md:pt-20 md:mx-28 pt-16 '>
         <div className='flex justify-between mx-2'>
-          <div className=' md:border-2 md:border-r-[#81B5FA] border-transparent'>
+          <div className='border-2 border-l-[#81B5FA] md:border-2 md:border-r-[#81B5FA] md:border-l-0 border-transparent'>
             <img className='md:my-2' src={Arc} alt="" />
             <p className='md:text-xl font-semibold md:my-2'>Customer-Centric Approach</p>
             <p className='items-center md:my-2'>Our focus is on delivering exceptional service and building long-term relationships with our clients.</p>
@@ -75,7 +75,7 @@ export default class Home extends PureComponent {
           </div>
           </div>
 
-          <div className='border-2 md:border-r-[#81B5FA] border-transparent '>
+          <div className=' border-transparent '>
             <img className='md:my-2' src={User} alt="" />
             <p className='md:text-xl font-semibold md:my-2'>Advanced Technology</p>
             <p className='items-center md:my-2'>Stay connected with real-time tracking and seamless communication throughout your shipment's journey.</p>
