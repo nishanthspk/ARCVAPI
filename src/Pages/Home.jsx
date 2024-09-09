@@ -74,11 +74,13 @@ export default class Home extends PureComponent {
             <p className='items-center md:my-2 text-xs  text-gray-400 my-2'>With five years in the logistic industry, we have the knowledge and skills to handle any transportation challenge.</p>
           </div>
           </div>
-
-          <div className=' border-transparent pt-10 px-5'>
+          
+          <div className='pl-24 pt-4'>
+          <div className=' border-transparent border-2 border-l-[#81B5FA] md:border-l-0 pt-10 pl-2'>
             <img className='md:my-2' src={User} alt="" />
             <p className='md:text-xl text-xs font-semibold md:my-2'>Advanced Technology</p>
             <p className='items-center text-xs text-gray-400 md:my-2'>Stay connected with real-time tracking and seamless communication throughout your shipment's journey.</p>
+          </div>
           </div>
         </div>
 
