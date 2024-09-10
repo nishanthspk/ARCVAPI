@@ -229,25 +229,25 @@ export default class Home extends PureComponent {
         <div className='mx-10 pt-5'>
         <img className='' src={Map} alt="" />
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between mx-5'>
         
-        <div className=' md:mx-4 md:mt-10'>
+        <div className=' md:mx-4 md:mt-10 mt-10'>
         <div className='flex gap-4 md:mx-10'>
       <img className='h-8' src={Logo} alt="" />
-      <div className='md:pt-1 font-semibold '>ArcVapi.</div>
+      <p className='md:pt-1  font-semibold '>ArcVapi.</p>
       </div>
-      <p className='md:mx-10 md:pt-2 md:my-1'>Efficient Solutions for All Your Transportation Needs.</p>
+      <p className='md:mx-10 py-2 md:pt-2 md:my-1'>Efficient Solutions for All Your Transportation Needs.</p>
      
       </div>
-      <div className='flex md:gap-10 md:mx-16 mt-10 '>
+      <div className='flex md:gap-10 gap-5 md:mx-16 mt-10 '>
       <div>
-      <p className='md:my-1'>Tools</p>
-      <p className='md:my-1'>About Us</p>
-      <p className='md:my-1'>Contact</p>
+      <p className='md:my-1 my-1'>Tools</p>
+      <p className='md:my-1 my-1'>About Us</p>
+      <p className='md:my-1 my-1'>Contact</p>
       </div>
       <div>
-      <p className='md:my-1'>Privacy Policies</p>
-      <p className='md:my-1'>Terms of service</p>
+      <p className='md:my-1 my-1'>Privacy Policies</p>
+      <p className='md:my-1 my-2'>Terms of service</p>
       </div>
       </div>
       </div>
