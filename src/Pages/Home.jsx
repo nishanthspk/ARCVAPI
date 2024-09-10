@@ -246,8 +246,8 @@ export default class Home extends PureComponent {
       <p className='md:my-1'>Contact</p>
       </div>
       <div>
-      <p className='my-1'>Privacy Policies</p>
-      <p className='my-1'>Terms of service</p>
+      <p className='md:my-1'>Privacy Policies</p>
+      <p className='md:my-1'>Terms of service</p>
       </div>
       </div>
       </div>
