@@ -182,7 +182,7 @@ export default class Home extends PureComponent {
         </div>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
-        <p>Martin Goutry</p>
+        <p className='text-[#81B5FA]'>Martin Goutry</p>
         <p>John Smith, CEO of Tech Innovations</p>
         <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
