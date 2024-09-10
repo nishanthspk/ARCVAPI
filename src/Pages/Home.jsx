@@ -197,27 +197,27 @@ export default class Home extends PureComponent {
         
         <div className='bg-[#D7E8FF] rounded-lg md:mx-10 md:mt-20 mt-20'>
         <div className='text-center md:pt-5 '>
-        <p className='md:text-4xl md:my-2 my-2'>Connect with Us</p>
-        <p className='text-xs md:my-2 my-2'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get  back to you promptly to address your inquiries and provide the support you need.</p>
+        <p className='md:text-4xl text-xl font-bold md:my-2 my-2 pt-4'>Connect with Us</p>
+        <p className='text-[10px] md:my-2 my-2 pt-2 mx-4'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get  back to you promptly to address your inquiries and provide the support you need.</p>
         </div>
-        <div className='flex justify-between md:mx-10 md:pt-20'>
-        <div>
-        <p className='md:my-2'>Full Name *</p>
+        <div className='flex justify-between md:mx-10 md:pt-20 pt-8'>
+        <div className='pl-28'>
+        <p className='md:my-2 my-2 '>Full Name *</p>
+        <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
+        <p className='md:my-2 my-2'>Enquiry Services</p>
         <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
-        <p className='md:my-2'>Enquiry Services</p>
+        <p className='md:my-2 my-2'>Email *</p>
         <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
-        <p className='md:my-2'>Email *</p>
+        <p className='md:my-2 my-2'>Phone Number (Optional)</p>
         <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
-        <p className='md:my-2'>Phone Number (Optional)</p>
-        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
-        <p className='md:my-2'>Message *</p>
+        <p className='md:my-2 my-2'>Message *</p>
         <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
         <div className='md:pt-10 '>
         <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg hover:bg-blue-500'>Send Message →</button>
         </div>
         </div>
         <div>
-        <img className='h-[500px] w-[500px]' src={Factory} alt="" />
+        <img className='h-[500px] w-[500px] hidden md:block' src={Factory} alt="" />
         </div>
         </div>
         </div>
