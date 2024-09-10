@@ -212,8 +212,8 @@ export default class Home extends PureComponent {
         <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
         <p className='md:my-2 my-2'>Message *</p>
         <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
-        <div className='md:pt-10 '>
-        <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg hover:bg-blue-500'>Send Message →</button>
+        <div className='md:pt-10 pt-8 pb-7'>
+        <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg hover:bg-blue-500 '>Send Message →</button>
         </div>
         </div>
         <div>
