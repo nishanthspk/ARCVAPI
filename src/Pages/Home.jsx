@@ -239,11 +239,11 @@ export default class Home extends PureComponent {
       <p className='md:mx-10 py-2 md:pt-2 md:my-1'>Efficient Solutions for All Your Transportation Needs.</p>
      
       </div>
-      <div className='flex md:gap-10 gap-5 md:mx-16 mt-10 '>
-      <div>
-      <p className='md:my-1 my-1'>Tools</p>
-      <p className='md:my-1 my-1'>About Us</p>
-      <p className='md:my-1 my-1'>Contact</p>
+      <div className='flex md:gap-10 gap-4  md:mx-16 mt-10 '>
+      <div >
+      <p className='md:my-1 my-2 text-xs'>Tools</p>
+      <p className='md:my-1 my-2 text-xs'>About Us</p>
+      <p className='md:my-1 my-2 text-xs'>Contact</p>
       </div>
       <div>
       <p className='md:my-1 my-1'>Privacy Policies</p>
