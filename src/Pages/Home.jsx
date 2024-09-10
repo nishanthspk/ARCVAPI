@@ -240,14 +240,14 @@ export default class Home extends PureComponent {
      
       </div>
       <div className='flex md:gap-10 gap-4  md:mx-16 mt-10 '>
-      <div >
+      <div className=''>
       <p className='md:my-1 my-2 text-xs'>Tools</p>
       <p className='md:my-1 my-2 text-xs'>About Us</p>
       <p className='md:my-1 my-2 text-xs'>Contact</p>
       </div>
       <div>
-      <p className='md:my-1 my-1'>Privacy Policies</p>
-      <p className='md:my-1 my-2'>Terms of service</p>
+      <p className='md:my-1 my-2 text-xs'>Privacy Policies</p>
+      <p className='md:my-1 my-4 text-xs'>Terms of service</p>
       </div>
       </div>
       </div>
