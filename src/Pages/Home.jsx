@@ -231,19 +231,19 @@ export default class Home extends PureComponent {
         </div>
         <div className='flex justify-between'>
         
-        <div className=' mx-4 mt-10'>
-        <div className='flex gap-4 mx-10'>
+        <div className=' md:mx-4 md:mt-10'>
+        <div className='flex gap-4 md:mx-10'>
       <img className='h-8' src={Logo} alt="" />
-      <div className='pt-1 font-semibold '>ArcVapi.</div>
+      <div className='md:pt-1 font-semibold '>ArcVapi.</div>
       </div>
-      <p className='mx-10 pt-2 my-1'>Efficient Solutions for All Your Transportation Needs.</p>
+      <p className='md:mx-10 md:pt-2 md:my-1'>Efficient Solutions for All Your Transportation Needs.</p>
      
       </div>
       <div className='flex md:gap-10 md:mx-16 mt-10 '>
       <div>
-      <p className='my-1'>Tools</p>
-      <p className='my-1'>About Us</p>
-      <p className='my-1'>Contact</p>
+      <p className='md:my-1'>Tools</p>
+      <p className='md:my-1'>About Us</p>
+      <p className='md:my-1'>Contact</p>
       </div>
       <div>
       <p className='my-1'>Privacy Policies</p>
