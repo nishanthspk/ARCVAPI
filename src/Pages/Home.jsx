@@ -171,25 +171,25 @@ export default class Home extends PureComponent {
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
-        <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
+        <p className='text-[10px] font-semibold'>John Smith, CEO of Tech Innovations</p>
         <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
-        <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
+        <p className='text-[10px] font-semibold'>John Smith, CEO of Tech Innovations</p>
         <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
-        <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
+        <p className='text-[10px] font-semibold'>John Smith, CEO of Tech Innovations</p>
         <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='md:hidden bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
-        <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
+        <p className='text-[10px] font-semibold '>John Smith, CEO of Tech Innovations</p>
         <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         </div>
