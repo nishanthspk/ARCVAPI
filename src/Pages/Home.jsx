@@ -252,7 +252,7 @@ export default class Home extends PureComponent {
       </div>
       </div>
       
-      <div className='mx-20 pt-16'>
+      <div className='md:mx-20 md:pt-16'>
       <img src={Text} alt="" />
       </div>
 
