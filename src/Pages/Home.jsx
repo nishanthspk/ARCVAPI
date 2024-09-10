@@ -200,18 +200,18 @@ export default class Home extends PureComponent {
         <p className='md:text-4xl text-xl font-bold md:my-2 my-2 pt-4'>Connect with Us</p>
         <p className='text-[10px] md:my-2 my-2 pt-2 mx-4'>We're here to assist with all your logistics needs. Fill out the form below, and our team will get  back to you promptly to address your inquiries and provide the support you need.</p>
         </div>
-        <div className='flex justify-between md:mx-10 md:pt-20 pt-8'>
-        <div className='pl-28'>
+        <div className='flex justify-between md:mx-10 md:pt-20 pt-5'>
+        <div className='pl-20'>
         <p className='md:my-2 my-2 '>Full Name *</p>
         <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
         <p className='md:my-2 my-2'>Enquiry Services</p>
-        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
         <p className='md:my-2 my-2'>Email *</p>
-        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
         <p className='md:my-2 my-2'>Phone Number (Optional)</p>
-        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
         <p className='md:my-2 my-2'>Message *</p>
-        <input className='bg-white md:w-96 p-1 rounded-lg' type="text" />
+        <input className='bg-white md:w-96 p-1 rounded-lg w-72' type="text" />
         <div className='md:pt-10 '>
         <button className='bg-[#81B5FA] text-white border-2 border-b-black py-2 px-4 rounded-lg hover:bg-blue-500'>Send Message →</button>
         </div>
@@ -225,7 +225,7 @@ export default class Home extends PureComponent {
         <div className='text-center pt-20'>
         <p className='text-4xl'>Find Us on the Map</p>
         <p className='text-xs my-4'>Use the interactive map below to find our office locations and get directions</p>
-        </div>
+        </div>      
         <div className='mx-10 pt-5'>
         <img className='' src={Map} alt="" />
         </div>
