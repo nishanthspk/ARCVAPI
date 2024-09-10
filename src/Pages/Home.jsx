@@ -167,30 +167,30 @@ export default class Home extends PureComponent {
         <p className='md:text-4xl text-2xl font-bold'>Our Trusted Clients</p>
         <p className='text-xs pt-2'>We are honored to have partnered with a diverse range of clients from various industries. Here are some of the logos and testimonials from those who trust us with their logistics needs.</p>
         </div>
-        <div className='grid grid-cols-2 md:flex justify-between mx-5 gap-5 pt-10'>
+        <div className='grid grid-cols-2 md:flex justify-between mx-2 md:mx-5 gap-3 md:gap-5 pt-10'>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
         <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
-        <p className='text-xs'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
         <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
-        <p className='text-xs'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
         <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
-        <p className='text-xs'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         <div className='md:hidden bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
         <p className='text-[#81B5FA]'>Martin Goutry</p>
         <p className='text-xs font-semibold'>John Smith, CEO of Tech Innovations</p>
-        <p className='text-xs'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
+        <p className='text-[10px]'>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
         </div>
         </div>
