@@ -170,7 +170,7 @@ export default class Home extends PureComponent {
         <div className='grid grid-cols-2 md:flex justify-between mx-5 gap-5 pt-10'>
         <div className='bg-[#E4EFFF] border-2 border-[#6695db] rounded-lg'>
         <img src={Dummy} alt="" />
-        <p className=''>Martin Goutry</p>
+        <p className='text-[#81B5FA]'>Martin Goutry</p>
         <p>John Smith, CEO of Tech Innovations</p>
         <p>"Abhay Road Carrier has been an invaluable partner in managing our logistics. Their reliability and timely deliveries.”</p>
         </div>
