@@ -236,7 +236,7 @@ export default class Home extends PureComponent {
       <img className='h-8' src={Logo} alt="" />
       <p className='md:pt-1  font-semibold '>ArcVapi.</p>
       </div>
-      <p className='md:mx-10 py-2 md:pt-2 md:my-1 text-xs'>Efficient Solutions for All Your Transportation Needs.</p>
+      <p className='md:mx-10 py-2 md:pt-2 md:my-1 text-xs mx-1'>Efficient Solutions for All Your Transportation Needs.</p>
      
       </div>
       <div className='flex md:gap-10 gap-4  md:mx-16 mt-10 '>
